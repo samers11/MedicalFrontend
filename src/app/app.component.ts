@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { NavbarComponent } from './navbar/navbar.component'
+import { NavbarComponent } from './navbar/navbar.component';
+import { LoginComponent } from './login/login.component';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +9,5 @@ import { NavbarComponent } from './navbar/navbar.component'
 })
 export class AppComponent {
   title = 'MedicalFrontend';
+  user = 'doctor';
 }
